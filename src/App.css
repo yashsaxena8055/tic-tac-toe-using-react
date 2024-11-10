@@ -1,0 +1,47 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.board-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.square{
+    /* padding: 20px; */
+    height: 5rem;
+    width: 5rem;
+    border: 1px solid gray;
+    font-size: large;
+}
+
+.square:hover{
+    border: 5px solid rgba(136, 231, 248, 0.207);
+   /* // border-radius: 5px; */
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid gray;
+    background-color: rgb(247, 243, 243);
+    height: 50px;
+    align-items: center;
+}
+.nav-items{
+    padding-left: 20px;
+    font-size: 30px;
+    padding-right:5px ;
+
+}
+.nav-div-right {
+    margin-left: auto;
+    margin-right: 100px;
+}
+
+.main-div{
+   
+    display:grid;
+    justify-content: center;
+    margin-top: 100px;
+}
